@@ -1,0 +1,101 @@
+/*=============================================
+=            Global Styles                    =
+=============================================*/
+
+html,
+body {
+  width: 100%;
+}
+
+body {
+  flex-direction: column;
+  min-height: 100vh;
+  color: white;
+  background: Grey;
+  font-family: "Open Sans", sans-serif;
+  background-image: repeating-linear-gradient(
+    90deg,
+    hsla(0, 0%, 100%, 0.1),
+    hsla(0, 0%, 100%, 0.1) 20px,
+    transparent 0,
+    transparent 40px
+  );
+}
+
+p {
+  line-height: 1.5;
+}
+
+/*=====  End of Global Styles   ======*/
+
+/*=============================================
+=            Header Styles                   =
+=============================================*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#header,
+#content {
+  margin: 0 auto;
+  width: 1140px;
+  max-width: 90%;
+}
+
+#header {
+  margin-top: 2.5em;
+}
+
+.site-title {
+  font-size: 8rem;
+}
+
+.score {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+/*=====  End of Header Styles  ======*/
+
+/*=============================================
+=            Quiz Display Styles            =
+=============================================*/
+.game-display {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.statement {
+  font-size: 2.5rem;
+}
+
+button {
+  height: 4em;
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.5rem;
+  background-color: white;
+  border: 2px solid black;
+}
+
+#countryGuess {
+  margin-top: 10px;
+  height: 40px;
+  width: 250px;
+}
+
+.countryFlag {
+  display: inline-block;
+}
+
+img {
+  height: 350px;
+  width: 550px;
+}
+
+/*=====  End of Quiz Display Styles  ======*/
